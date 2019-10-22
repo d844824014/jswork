@@ -14,11 +14,9 @@ function sort(method){
 
     showDiv = document.getElementById('Anim')
     //生成排序日志数组的遍历对象
-    logValues = logs.value()
+    logValues = logs.values()
     //尝试看一下log values。next（） 遍历器对象返回的数据数据结构
     console.log(logValues.next())
     //延时方式调用showlog（）函数显示排序步骤，50毫秒后调用
     setTimeout("showLog(logValues,showDiv)", 50)
-
-    showDiv.innerHTML = logs
 }

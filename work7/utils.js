@@ -18,8 +18,8 @@ function bubbleSort(str) {
 
 function insertSort(str) {
     let arr = str.split(',')
-    for (let i = 1; i < arr.length; i++) {
-        for (let j = 1; j > 0; j--) {
+    for (var i = 1; i < arr.length; i++) {
+        for (var j = i; j > 0; j--) {
             if (arr[j - 1] > arr[j]) {
                 [arr[j - 1], arr[j]] = [arr[j], arr[j - 1]]
             }
