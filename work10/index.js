@@ -25,9 +25,18 @@ function monkey(){
 function stat(){
     let str = document.getElementById("str").value
     let obj = {}
-    str.split('');let =str.reduce(function(str, button){
-    console.log(str, button)
-    return str
-    });
-    document.getElementById('result').innerText = JSON.stringify(obj)
+    let value = str.split('').sort().reduce(
+        (str, value) => (str[value]++ || (str[value] = 1), str),{}
+            )
+            console.log(value)
+  
+
+    document.getElementById('result').innerText = JSON.stringify(value)
 }
+
+//let value = str.split('').sort().reduce(
+   // (a, c) => (a[c]++ || (a[c] = 1), a), {}
+    //)
+//console.log(value)
+
+//document.getElementById('result').innerText = JSON.stringify(value)
