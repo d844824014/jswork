@@ -9,11 +9,7 @@
             for (var n in this.data[k]) {
                 item[n] = this.data[k][n];
             }
-<<<<<<< HEAD
             html += builder.toHTML(item);
-=======
-            html += FormBuilder.toHTML(item);
->>>>>>> a90ff9a526eb18d29537b399a17680b964274008
         }
         return '<table>' + html + '</table>';
     };
@@ -54,8 +50,4 @@
         }
     };
     window['FormBuilder'] = FormBuilder;
-<<<<<<< HEAD
 })(window);
-=======
-})(winodw);
->>>>>>> a90ff9a526eb18d29537b399a17680b964274008
