@@ -11,7 +11,11 @@ body {
     float: left;
 }
 
+<<<<<<< HEAD
 .nextyear {
+=======
+.nexttear {
+>>>>>>> a90ff9a526eb18d29537b399a17680b964274008
     float: right;
 }
 

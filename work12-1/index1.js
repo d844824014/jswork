@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 let year = new Date().getFullYear()
 document.getElementById("cal").innerHTML = calendar(year)
@@ -16,4 +17,15 @@ function setCalendar(year){
     document.getElementById('preyear').innerText = "<<" + pre;
     document.getElementById('nextyear').innerText = next + ">>";
     document.getElementById("cal").innerHTML = calendar(year);
+=======
+//获取当前年份
+let year = new Date().getFullYear()
+//调用。。函数，设置cal内容显示年里
+document.getElementById("cal").innerHTML = calendar(year)
+
+function setCalendar(year){
+    d//
+    //
+    //
+>>>>>>> a90ff9a526eb18d29537b399a17680b964274008
 }
