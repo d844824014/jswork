@@ -150,7 +150,7 @@
 
 
         updateSubtotal: function() {
-            this.subtotal.textContent = (this.data.num * this.data.price).toFixed(2);
+            this.subtotal.textContent = (this.data.num * this.dataprice).toFixed(2);
         }
        };
        /** 
