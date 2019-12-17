@@ -42,7 +42,7 @@ function getRegMsg(name, tips) {
                 case 'repwd':
                     var con = document.getElementsByTagName('input')[1].value;
                     reg = RegExp("^" + con + "$");
-                    msg = {'success': '两次密码输入正确', 'error': '两次输入的密码不一致'};
+                    msg = {'success': '两次密码输入正确', 'error': '两次输入的密码不一致嗷'};
                     break;
                     case 'tel':
                         reg = /^1[34578]\d{9}$/;
